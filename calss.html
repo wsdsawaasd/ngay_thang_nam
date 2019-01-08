@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>date</title>
+</head>
+<body>
+<script>
+    var date = {
+        day : 29,
+        month : 2,
+        year : 2018,
+        ngaythangnam : function () {
+            alert( "to day is " + this.day + " thang " + this.month + " nam " + this.year  )
+        },
+        getday : function () {
+            alert(this.day)
+        },
+        getMonth : function () {
+            alert(this.month)
+        }
+
+    };
+    date.day= 8;
+    date.year=2019;
+    date.month= 1;
+    date.ngaythangnam();
+    date.getday();
+    date.getMonth()
+</script>
+</body>
+</html>
